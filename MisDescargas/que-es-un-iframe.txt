@@ -1,0 +1,9 @@
+﻿ESTA ES UNA PRUEBA DE TEXTO.
+
+Un iFrame es un marco (frame) dentro de un marco. Es un componente de un 
+elemento HTML que permite incrustar documentos, videos y medios 
+interactivos dentro de una página. Al hacer esto, puedes mostrar 
+una página web secundaria en su página principal.
+
+Referencia.
+https://www.hostinger.com/mx/tutoriales/que-es-iframe

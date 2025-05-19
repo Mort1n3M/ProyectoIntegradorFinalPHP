@@ -1,0 +1,105 @@
+[
+    {
+        "nombre": "Martin Escobedo",
+        "correo": "uno@gmail.com",
+        "password": "123",
+        "intereses": [
+            "Lectura",
+            "Tecnología"
+        ],
+        "fecha_nacimiento": "01\/02\/1965"
+    },
+    {
+        "nombre": "Helen Torres Ximenez",
+        "correo": "wee4@hotmail.com",
+        "password": "321",
+        "intereses": [
+            "Cine",
+            "Deportes",
+            "Lectura",
+            "Música",
+            "Tecnología",
+            "Viajes"
+        ],
+        "fecha_nacimiento": "15\/09\/2005"
+    },
+    {
+        "nombre": "Roberto Venegas S.",
+        "correo": "rvs@hotmail.com",
+        "password": "Ren321",
+        "intereses": [
+            "Cine",
+            "Deportes",
+            "Música",
+            "Tecnología"
+        ],
+        "fecha_nacimiento": "15\/09\/2005"
+    },
+    {
+        "nombre": "Guadalupe Guzman G..",
+        "correo": "ggg72@gmail.com",
+        "password": "PuP300wL",
+        "intereses": [
+            "Lectura",
+            "Música",
+            "Viajes"
+        ],
+        "fecha_nacimiento": "15\/09\/2005"
+    },
+    {
+        "nombre": "Luis Gallo C.",
+        "correo": "luis.g78@yahoo.com",
+        "password": "K1k8Drx78",
+        "intereses": [
+            "Cine",
+            "Deportes",
+            "Lectura",
+            "Música",
+            "Tecnología",
+            "Viajes"
+        ],
+        "fecha_nacimiento": "05\/12\/1989"
+    },
+    {
+        "nombre": "Omar",
+        "correo": "ogt@hotmail.com",
+        "password": "999",
+        "intereses": [
+            "Cine",
+            "Música",
+            "Tecnología"
+        ],
+        "fecha_nacimiento": "28\/11\/1994"
+    },
+    {
+        "nombre": "Angel Diaz Torres",
+        "correo": "adt.75.gdl@hotmail.com",
+        "password": "345F6Cdf#",
+        "intereses": [
+            "Música",
+            "Tecnología"
+        ],
+        "fecha_nacimiento": "13\/06\/1970"
+    },
+    {
+        "nombre": "Antoio Muños Huerta",
+        "correo": "nu5hu-moz@hotmail.com",
+        "password": "4R5j46FfCdf",
+        "intereses": [
+            "Cine",
+            "Tecnología"
+        ],
+        "fecha_nacimiento": "25\/07\/1979"
+    },
+    {
+        "nombre": "Karla Jiménez Estrada",
+        "correo": "karlita94-0#49@hotmail.com",
+        "password": "div88Al#71",
+        "intereses": [
+            "Cine",
+            "Música",
+            "Viajes"
+        ],
+        "fecha_nacimiento": "08\/08\/1994"
+    }
+]

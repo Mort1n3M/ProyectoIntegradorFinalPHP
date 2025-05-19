@@ -1,0 +1,14 @@
+﻿En PHP, Array_diff es una función de PHP que compara los valores de dos o más
+matrices y devuelve las diferencias.
+
+En PHP, la función scandir() permite enumerar los archivos y directorios que se
+encuentran en una ruta específica. Devuelve un array con los nombres de los 
+archivos y directorios. 
+
+
+document.getElementById es un método de JavaScript que permite seleccionar 
+un elemento HTML por su ID. Es uno de los métodos más utilizados del DOM HTML. 
+
+Referencia: 
+https://www.php.net/manual/es/function.array-diff-key.php
+https://www.php.net/manual/es/function.scandir.php

@@ -1,0 +1,239 @@
+/* Propiedades en Index.php) ------------------------------------------------*/
+/* Resetear margenes */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Font para el Body */
+.bodyAU { font-family:Arial, Helvetica, sans-serif }
+
+/* Propiedades del encabezado en Index.php*/
+.encabezadoIndex {
+    background-image: url('./img/fondo01.jpg');
+    background-position: center;
+    background-size:auto;
+    padding:2rem;
+    color: rgb(255, 255, 255)
+}
+/* Centrar titulos para h1 y h2 en Section (index.php) */
+.contenidoEnIndex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;   /* Largo del contenedor  */
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(22, 50, 128);
+}
+/* Centrar texto */
+.contenidoEnIndex h1 h2 {  font-family: Arial, Helvetica, sans-serif; text-align: center;  }
+/* Poner un margen al final para h1 y h2 en Section (index.php) */
+.contenidoEnIndex h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    margin: .2rem 0;
+}
+.contenidoEnIndex h2 {   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+/* FIN de Propiedades en Index.php) -----------------------------------------*/
+
+
+
+/* Propiedades para alta_usuarios.php ---------------------------------------*/
+/* Propiedades del contenedor  (Alta_usuarios.php) */
+.containerFormAU {    
+    max-width: 400px;  /* Ancho del formulario*/
+    margin: 30px auto;
+    margin-bottom: 120px;
+    padding: 26px;
+    background-color: rgb(231, 231, 240);            
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+/* Propiedades del botón (Alta_usuarios.php) */        
+.containerFormAU button {
+    display: block; /* Cambiado a block para centrar */
+    margin: 0 auto; /* Centrar el botón */
+}
+/* Propiedades de etiqueta */
+.form-groupAU label {
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(21, 86, 172);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form-groupAU input, .form-groupAU select {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+/* Propiedades del Usuario Activo */
+#usuarioActivoAU {  font-style: italic;  margin: 0; padding: 0;}
+
+/* Cabecera generalizada --------------------------------------------*/
+.encabezadoAU {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #161569;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* FIN deCabecera generalizada --------------------------------------*/
+
+/* Propiedades del header: Centrar titulos */
+.encabezadoAU h1, h2 {  font-family: Arial, Helvetica, sans-serif; margin: 0;  color: white;  }
+
+/* Botón para ir a index.php */
+#btnVerUserRegAU {
+    background-color: rgb(1, 24, 88);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    width: 19.5rem; /* Ancho fijo */
+    cursor: pointer;
+    border-radius: 20px;
+    margin-bottom: .5rem;
+}
+/*  Al pasar el cursor sobre botón "Ir al inicio (index.php)"  */
+#btnVerUserRegAU:hover  {  background-color: rgb(33, 134, 129); }
+/* Botón para agregar usuario */
+#btnAgregaUsuarioAU {
+    background-color: rgb(1, 24, 88);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    width: 19.5rem; /* Ancho fijo */
+    cursor: pointer;
+    border-radius: 20px;
+    margin-bottom: .5rem;
+}
+/*  Al pasar el cursor sobre botón "Agregar usuario"  */
+#btnAgregaUsuarioAU:hover  {  background-color: #088124; }
+/* Botón para ir a index.php */
+#btInicioAU {
+    background-color: rgb(1, 24, 88);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-bottom: .5rem;
+    width: 19.5rem; /* Ancho fijo */
+    cursor: pointer;
+    border-radius: 20px;
+}
+/*  Al pasar el cursor sobre botón "Ir al inicio (index.php)"  */
+#btInicioAU:hover  {  background-color:rgb(91, 99, 146) }       
+/* Estilo para el botón de inicio de sesión */
+#btnLoginAU {
+    color: rgb(1, 24, 88);;
+    font-size: .8rem;
+    border: none;
+    padding: 10px 15px;
+    width: 17.5rem; /* Ancho fijo */
+    margin-top: 13rem;
+    cursor: pointer;
+    border-radius: 20px;
+    text-align: center; /* Centrar texto */
+    display: inline-block; /* Para que se comporte como un botón */
+    text-decoration: none; /* Sin subrayado */
+    display: block; /* Cambiado a block para centrar */
+    margin: 0 auto; /* Centrar el botón */
+}
+/*  Al pasar el cursor sobre botón "Inicio de sesión"  */
+#btnLoginAU:hover  {  
+    color: white;
+    background-color: rgb(152, 33, 207);
+    font-weight: bold; letter-spacing: .1rem;
+}
+/* Crear un margen por debajo  */
+#fecha_nacimientoAU {   margin-bottom: 1rem;  }   
+/* Píe de página  */
+.footerAU {
+    background-color: #6c757d;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    /* Fija el footer al final de la página */
+    bottom: 0;
+    width: 100%;
+}
+/* ---- Fin Propiedades (Alta_Usuarios.php) -------------------------*/
+
+
+/* Mostrar Usuario Activo */
+#usuarioActivo {  text-align: center;   margin: 20px;  }
+
+
+/* Propiedades del Menú------------------------------------------------------*/
+
+/* Poner magrgen al Menú */
+nav {
+    nav {
+        text-align: center;
+        margin: 20px auto;
+        display: flex;
+        justify-content: center;
+        gap: 20px; /* Adds space between menu items */
+    }
+    
+}
+
+/* Propidades de los enlaces */
+nav a {    
+    text-decoration: none;
+    color: rgb(0, 44, 165);
+    font-weight: bold;
+    position: relative;
+    padding: 0.5rem;
+    transition: color 0.3s;
+}
+
+/* Dar animación al Menú */    
+nav a::after {
+    content: '';
+    display: block;
+    width: 100%;
+    
+    /* Propiedades de la línea que resalta el enlace */
+    height: 4px; /* Altura de la línea */
+    background-color: rgb(103, 201, 214); /* Color de la línea */
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0); /* Inicialmente no visible */
+    transition: transform 0.3s ease; /* Transición suave para la línea */
+}
+
+nav a:hover::after {
+    transform: scaleX(1); /* Mostrar la línea al pasar el mouse */
+}
+/* Fin de las propiedades del Menú ------------------------------------------*/
+
+
+
+/* Pie de pagina para Index.PHP */
+footer {
+    background-color: #6c757d;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center; /* Centra el texto del footer */
+    margin-top: 20px; /* Espacio superior para el footer */
+}
+
+/* Estilos para el enlace deshabilitado */
+.disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+    color: grey;
+}
